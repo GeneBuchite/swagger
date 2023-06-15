@@ -24,17 +24,22 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. Tutorial found here:(https://www.prisma.io/blog/nestjs-prisma-relational-data-7D056s1kOabc)
 
 ## Installation
 
 ```bash
-$ npm install
+$ npm install 
 ```
+
+don't forget to add/edit the .env file to include data url.
 
 ## Running the app
 
 ```bash
+# setup Prisma
+$ npx prisma generate
+
 # development
 $ npm run start
 
